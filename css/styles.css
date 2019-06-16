@@ -129,3 +129,38 @@ padding-bottom: 3%;
 .pricing-column {
   padding: 3% 2%;
 }
+/* CTA Section */
+
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3rem;
+}
+
+/* Footer Section */
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: none;
+  }
+}
